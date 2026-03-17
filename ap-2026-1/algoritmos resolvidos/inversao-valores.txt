@@ -1,0 +1,16 @@
+Algoritmo <Inversão Valores>
+
+Início
+
+Var
+ValorA, valorB, temporaria: caractere
+
+Leia ("Digite o valor A: " + valorA)
+Leia ("Digite o valor B: " + valorB)
+
+temporaria <- valorA
+valorA <- valorB
+valorB <- temporaria
+
+Escreva ("O valor da inversão para A é: " + valorA)
+Escreva ("O valor da inversão para B é: " + valorB)
