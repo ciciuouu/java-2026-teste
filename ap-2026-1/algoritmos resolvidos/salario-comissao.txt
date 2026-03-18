@@ -1,0 +1,19 @@
+Algoritmo <Salário Comissão>
+
+Inicio
+
+Var
+nome: caractere
+salario, vendas, total: Real
+
+Leia ("Escreva seu nome: " + nome)
+Leia ("Digite seu salario: " + salario)
+Leia ("Digite o valor total das vendas no mes: " + vendas)
+
+total <- salario + (vendas *0.15)
+
+Escreva ("Colaborador: " + nome)
+Escreva ("Salario fixo: " + salario)
+Escreva ("Salario com comissao de 15% nas vendas: " + total)
+
+Fim
