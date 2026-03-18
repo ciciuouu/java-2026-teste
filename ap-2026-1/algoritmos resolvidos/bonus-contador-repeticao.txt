@@ -1,0 +1,21 @@
+Algoritmo <Contador Repetição>
+
+Inicio
+
+Var
+numero, contador, i: inteiros
+
+Leia ("Digite um numero inteiro: " + numero) 1
+
+contador <- numero+10 11
+
+Enquanto (numero <= contador Faca{
+        Escreva("Contagem crescente: " + numero)
+        numero <- numero + 1
+}
+
+Para (i = numero, i <= contador, i++){
+        Escreva ("Contagem crescente: " + i)
+}
+
+Fim
